@@ -52,6 +52,7 @@ window.onload = function init()
 
 
 function render() {
+    console.log("here I am");
     gl.clear( gl.COLOR_BUFFER_BIT );
     gl.drawArrays( gl.TRIANGLES, 0, points.length );
 }
